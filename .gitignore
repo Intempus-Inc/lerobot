@@ -91,10 +91,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Ignore .cache except calibration
-.cache/*
-!.cache/calibration/
-!.cache/calibration/**
+# Local caches and device calibration
+.cache/
 
 # Translations
 *.mo
